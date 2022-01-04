@@ -9,53 +9,38 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="css/images/icon.png">
-    <title>GILSTECH</title>
+    <link rel="icon" href="css/images/iconweb.png">
+    <title>Langit Senja Technology</title>
 </head>
 
 <body>
     <!--navbar-->
     <nav class="navbar navbar-expand-xl navbar-dark fixed-top position-sticky shadow-sm" class="nv">
         <div class="container">
-            <a class="navbar-brand font-weight-bold" href="index.html">
-                <img src="css/images/icon.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy"> GILSTECH
+            <a class="navbar-brand font-weight-bold" href="index.php">
+                <img src="css/images/iconweb.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy"> Langit Senja Technology
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    <li class="nav-item" style="margin-right: 20px;">
+                        <a class="nav-link" href="index.php">Home</a>
+                    </li>
+                    <li class="nav-item active" style="margin-left: -20px;">
+                        <a class="nav-link" href="tips.php">Tutorial</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="news.html">News</a>
+                        <a class="nav-link" href="paket.php">Paket Langganan</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="tips.html">Tutorial</a>
+                        <a class="nav-link" href="login.php"> 
+                            <image src="css/images/iconlogin.png" style="width: 30px;"></image>
+                            Login
+                        </a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tips & Trick </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="window.html">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <div class="align-middle"><img src="css/images/1200px-Windows_logo_-_2012_(dark_blue).svg.png" class="d-inline icon" width="20"> Windows
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                            <a class="dropdown-item" href="Andro.html">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <div class="align-middle"><img src="css/images/android-512.webp" class="d-inline icon" width="20"> Android
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-
-                        </div>
-                    </li>
+                   
                 </ul>
             </div>
         </div>
@@ -118,34 +103,34 @@
 
             <div class="col-sm-4">
                 <div class="list-group ">
-                    <a href="ht.html" class=" grid list-group-item list-group-item-action ">
+                    <a href="ht.php" class=" grid list-group-item list-group-item-action ">
                         <div class="row">
                             <div class="col-12">
-                                <div class="align-middle"><img src="css/images/html5-icon-13.png" class="d-inline icon" width="24"> HTML
+                                <div class="align-middle"><img src="css/images/iconhtml.png" class="d-inline icon" width="24"> HTML
                                 </div>
                             </div>
                         </div>
                     </a>
-                    <a href="css.html" class=" grid list-group-item list-group-item-action active">
+                    <a href="css.php" class=" grid list-group-item list-group-item-action active">
                         <div class="row">
                             <div class="col-12">
-                                <div class="align-middle"><img src="css/images/css-internet-technology-website-web-style-css3-icon.svg" class="d-inline icon" width="24"> CSS
+                                <div class="align-middle"><img src="css/images/iconcss.svg" class="d-inline icon" width="24"> CSS
                                 </div>
                             </div>
                         </div>
                     </a>
-                    <a href="js.html" class=" grid list-group-item list-group-item-action ">
+                    <a href="js.php" class=" grid list-group-item list-group-item-action ">
                         <div class="row">
                             <div class="col-12">
-                                <div class="align-middle"><img src="css/images/1200px-Unofficial_JavaScript_logo_2.svg.png" class="d-inline icon" width="24"> Javascript
+                                <div class="align-middle"><img src="css/images/iconjava.png" class="d-inline icon" width="24"> Javascript
                                 </div>
                             </div>
                         </div>
                     </a>
-                    <a href="vue.html" class=" grid list-group-item list-group-item-action ">
+                    <a href="vue.php" class=" grid list-group-item list-group-item-action ">
                         <div class="row">
                             <div class="col-12">
-                                <div class="align-middle"><img src="css/images/220px-Vue.js_Logo_2.svg.png" class="d-inline icon" width="24"> Vue
+                                <div class="align-middle"><img src="css/images/iconvue.png" class="d-inline icon" width="24"> Vue
                                 </div>
                             </div>
                         </div>
@@ -161,10 +146,35 @@
     </button>
 
     <footer class="footer">
-        <h5 class="text-center font-weight-bold">About Me</h5>
-        <p class="text-center">Bayu Prasetya Adji Sugiyarto</p>
-        <div class="col-12 text-center my-3">© 2021 <a href="index.html" class="text-light"><strong>GILSTECH</strong></a>
-            <span class="d-none d-lg-inline">| Made with ❤️</span></div>
+        <div class="container">
+            <h1 style="margin-left:-10px;">
+            <image src="css/images/iconweb.png"></image>
+            LSTECH
+            </h1>
+            <div class="row">
+                <div class="col">
+                    <h5 class=" font-weight-bold">About Me</h5>
+                    <pre style="color: white;" class="align-items-center">
+Made By
+Ronald Adithya Rizkhie Soeharto
+Rezha Mukti Kris Saputra
+                    </pre>
+                </div>
+                <div class="col">
+                    <a href="https://www.instagram.com/langitsenjatechnology/" style="color: white;">
+                        <image src="css/images/instagramicon.png">
+                        </image>
+                        langitsenjatechnology
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="https://www.youtube.com/channel/UCM7jnhpEdUlIU5M5BLvVFxQ" style="color: white;">
+                        <image src="css/images/iconyoutube.png"></image>
+                        Langit Senja Technology
+                    </a>
+                </div>
+            </div>
+        </div>
     </footer>
 
 

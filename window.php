@@ -20,18 +20,19 @@
             <a class="navbar-brand font-weight-bold" href="index.html">
                 <img src="css/images/iconweb.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy"> Langit Senja Technology
             </a>
+
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item ">
+                    <li class="nav-item active">
                         <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="tips.html">Tutorial</a>
                     </li>
-                    <li class="nav-item dropdown">
+                    <li class="nav-item dropdown active ">
                         <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tips & Trick </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" href="window.html">
@@ -58,54 +59,46 @@
         </div>
     </nav>
 
-    <!--jumbotron-->
-    <div class="jumbotron jumbotron-fluid ">
-        <div class="container align-items-center">
-            <h1 class="display-4 font-weight-bold text-center">Apa yang ingin di pelajari?</h1>
-        </div>
-    </div>
+    <div class="container" id="bd">
+        <div class="row">
+            <div class="col-sm-8">
+                <div class="card-body shadow p-3 mb-5 bg-white rounded">
+                    <a href="#"><img src="css/images/choetech1.jpg" class="img-fluid" width="800" height="800" alt="..."></a>
+                    <a href="#">
+                        <h5 class="card-title">Review Choetech 9 in 1 USB C Adapter untuk Laptop</h5>
+                    </a>
+                    <p class="card-text">Saat ini semakin banyak produsen laptop yang mengurangi jumlah port yang dibawa oleh laptop buatanya. Salah satu contohnya adalah laptop…</p>
+                    <a href="#" class="btn">Read More</a>
+                    <br> <br>
+                    <a href="#"><img src="css/images/choetech1.jpg" class="img-fluid" width="800" height="800" alt="..."></a>
+                    <a href="#">
+                        <h5 class="card-title">Review Choetech 9 in 1 USB C Adapter untuk Laptop</h5>
+                    </a>
+                    <p class="card-text">Saat ini semakin banyak produsen laptop yang mengurangi jumlah port yang dibawa oleh laptop buatanya. Salah satu contohnya adalah laptop…</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
 
-    <!--main-->
-    <div class="container">
-        <div class="row ">
-            <div class="col">
-                <div class="card shadow p-3 mb-5 bg-white rounded mx-auto" style="width: 15rem;">
-                    <a href="ht.html" class="card-link">
-                        <img src="css/images/iconhtml.png" height="200px" width="200px" class="card-img-top" alt="..." href="#">
-                        <div class="card-body">
-                            <center><a class="card-text text-center" href='ht.html'>HTML</a></center>
+
+            </div>
+            <div class="col-sm-4 ">
+                <div class="list-group">
+                    <a href="window.html" class=" grid list-group-item list-group-item-action active">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="align-middle"><img src="css/images/1200px-Windows_logo_-_2012_(dark_blue).svg.png" class="d-inline icon" width="24"> Windows
+                                </div>
+                            </div>
                         </div>
                     </a>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card shadow p-3 mb-5 bg-white rounded mx-auto" style="width: 15rem;">
-                    <a href="css.html" class="card-link">
-                        <img src="css/images/iconcss.svg" height="200px" width="200px" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <center><a class="card-text text" href='css.html'>CSS</a></center>
+
+                    <a href="Andro.html" class=" grid list-group-item list-group-item-action ">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="align-middle"><img src="css/images/android-512.webp" class="d-inline icon" width="26"> Android
+                                </div>
+                            </div>
                         </div>
                     </a>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card shadow p-3 mb-5 bg-white rounded mx-auto" style="width: 15rem;">
-                    <a href="js.html" class="card-link">
-                        <img src="css/images/iconjava.png" height="200px" width="200px" class="card-img-top" alt="..." href="#">
-                        <div class="card-body">
-                            <center><a class="card-text text" href='js.html'>JavaScript</a></center>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="col">
-                <div  class="card shadow p-3 mb-5 bg-white rounded mx-auto" style="width: 15rem;">
-                    <a href="vue.html" class="card-link">
-                        <img src="css/images//iconvue.png" height="200px" width="200px" class="card-img-top" alt="...">
-                    </a>
-                    <div class="card-body">
-                        <center><a class="card-text text" href='vue.html'>Vue</a></center>
-                    </div>
                 </div>
             </div>
         </div>
@@ -118,15 +111,35 @@
 
     <footer class="footer">
         <div class="container">
-            <h5 class=" font-weight-bold">About Me</h5>
-            <pre style="color: white;" class="align-items-center">
+            <h1 style="margin-left:-10px;">
+            <image src="css/images/iconweb.png"></image>
+            LSTECH
+            </h1>
+            <div class="row">
+                <div class="col">
+                    <h5 class=" font-weight-bold">About Me</h5>
+                    <pre style="color: white;" class="align-items-center">
 Made By
 Ronald Adithya Rizkhie Soeharto
 Rezha Mukti Kris Saputra
-            </pre>
+                    </pre>
+                </div>
+                <div class="col">
+                    <a href="https://www.instagram.com/langitsenjatechnology/" style="color: white;">
+                        <image src="css/images/instagramicon.png">
+                        </image>
+                        langitsenjatechnology
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="https://www.youtube.com/channel/UCM7jnhpEdUlIU5M5BLvVFxQ" style="color: white;">
+                        <image src="css/images/iconyoutube.png"></image>
+                        Langit Senja Technology
+                    </a>
+                </div>
+            </div>
         </div>
     </footer>
-
 
 
     <!-- Optional JavaScript; choose one of the two! -->

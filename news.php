@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="css/images/icon.png">
+    <link rel="icon" href="css/images/iconweb.png">
     <title>GILSTECH</title>
 </head>
 
@@ -27,9 +27,6 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item ">
                         <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="news.html">News</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="tips.html">Tutorial</a>
@@ -119,10 +116,25 @@
     </div>
 
     <footer class="footer">
-        <h5 class="text-center font-weight-bold">About Me</h5>
-        <p class="text-center">Bayu Prasetya Adji Sugiyarto</p>
-        <div class="col-12 text-center my-3">© 2021 <a href="index.html" class="text-light"><strong>GILSTECH</strong></a>
-            <span class="d-none d-lg-inline">| Made with ❤️</span></div>
+        <div class="container">
+            <h1 style="margin-left:-10px;">
+            <image src="css/images/iconweb.png"></image>
+            LSTECH
+            </h1>
+            <div class="row">
+                <div class="col">
+                    <h5 class=" font-weight-bold">About Me</h5>
+                    <pre style="color: white;" class="align-items-center">
+Made By
+Ronald Adithya Rizkhie Soeharto
+Rezha Mukti Kris Saputra
+                    </pre>
+                </div>
+                <div class="col">
+                    <p>Instagram</p>
+                </div>
+            </div>
+        </div>
     </footer>
 
 

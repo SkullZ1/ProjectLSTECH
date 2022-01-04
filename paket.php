@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="css/images/iconweb.png">
+    <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="94352f01-ccd1-4f1a-a001-b52a2f434dad";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
     <title>LSTECH</title>
 </head>
 
@@ -17,41 +18,30 @@
     <!--navbar-->
     <nav class="navbar navbar-expand-xl navbar-dark fixed-top position-sticky shadow-sm" class="nv">
         <div class="container">
-            <a class="navbar-brand font-weight-bold" href="index.html">
+            <a class="navbar-brand font-weight-bold" href="index.php">
                 <img src="css/images/iconweb.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy"> Langit Senja Technology
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
+                    <li class="nav-item" style="margin-right: 20px;">
+                        <a class="nav-link" href="index.php">Home</a>
+                    </li>
+                    <li class="nav-item" style="margin-left: -20px;">
+                        <a class="nav-link" href="tips.php">Tutorial</a>
+                    </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="paket.php">Paket Langganan</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="tips.html">Tutorial</a>
+                        <a class="nav-link" href="login.php"> 
+                            <image src="css/images/iconlogin.png" style="width: 30px;"></image>
+                            Login
+                        </a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tips & Trick </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="window.html">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <div class="align-middle"><img src="css/images/1200px-Windows_logo_-_2012_(dark_blue).svg.png" class="d-inline icon" width="20"> Windows
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                            <a class="dropdown-item" href="Andro.html">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <div class="align-middle"><img src="css/images/android-512.webp" class="d-inline icon" width="20"> Android
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </li>
+                   
                 </ul>
             </div>
         </div>
@@ -60,27 +50,21 @@
     <!--jumbotron-->
     <div class="jumbotron jumbotron-fluid ">
         <div class="container align-items-center">
-            <h1 class="display-4 font-weight-bold ">Langit Senja Technology</h1>
-            <p class="text-light">Tutorial <strong><i>Coding</i></strong></p>
-            <div>
-                <button onclick="location.href='tips.html'" type="button" class="btn align-items-center ">Tutorial</button>
-            </div>
-
+            <h1 class="display-4 font-weight-bold text-center">Apa yang ingin di pelajari?</h1>
         </div>
-
     </div>
 
     <!--main-->
-    <div class="container">
-        <div class="row" style="background-image: url(css/images/coding.jpg);">
-            <div class="col-8"></div>
-            <div class="col-4">
-                <image src="css/images/iconhtml.png"></image>
-            </div>
-          </div>
-    </div>
-       
+    <div class="card" style="width: 18rem; margin-bottom: 30px;">
+        <div class="card-body">
+            <h4>Paket Pembayaran 1</h4>
+            <p>Membuka Fitur Chat Bersama Admin</p>
+        </div>
+        <div class="card-footer">
+            <button Onclick="location.href='vue.html'" class="btn btn-outline-primary" style="float: right;">Rp 15.000</button>
+        </div>
 
+    </div>
 
 
     <button onclick="topFunction()" id="myBtn" title="Go to top">
@@ -90,15 +74,35 @@
 
     <footer class="footer">
         <div class="container">
-            <h5 class=" font-weight-bold">About Me</h5>
-            <pre style="color: white;" class="align-items-center">
+            <h1 style="margin-left:-10px;">
+            <image src="css/images/iconweb.png"></image>
+            LSTECH
+            </h1>
+            <div class="row">
+                <div class="col">
+                    <h5 class=" font-weight-bold">About Me</h5>
+                    <pre style="color: white;" class="align-items-center">
 Made By
 Ronald Adithya Rizkhie Soeharto
 Rezha Mukti Kris Saputra
-            </pre>
+                    </pre>
+                </div>
+                <div class="col">
+                    <a href="https://www.instagram.com/langitsenjatechnology/" style="color: white;">
+                        <image src="css/images/instagramicon.png">
+                        </image>
+                        langitsenjatechnology
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="https://www.youtube.com/channel/UCM7jnhpEdUlIU5M5BLvVFxQ" style="color: white;">
+                        <image src="css/images/iconyoutube.png"></image>
+                        Langit Senja Technology
+                    </a>
+                </div>
+            </div>
         </div>
     </footer>
-
 
 
     <!-- Optional JavaScript; choose one of the two! -->

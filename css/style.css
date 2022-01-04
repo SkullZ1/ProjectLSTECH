@@ -1,13 +1,17 @@
     #bd {
         margin-top: 10px;
     }
+
+    .bg-custom {
+        background-color: #333
+    }
     
     .jumbotron {
-        background-color: #404969;
+        background-image: url("images/background.jpg");
         background-size: cover;
         background-attachment: fixed;
-        margin-top: -50px;
-        height: 400px;
+        margin-top: -70px;
+        height: 100%;
     }
     
     .jumbotron .display-4 {
@@ -16,9 +20,11 @@
     }
     
     .navbar {
-        background-color: #404969;
+        background:linear-gradient(#343a40 10%,#0000)!important;
         position: relative;
+        color: black;
     }
+   
     
     .card {
         padding-left: 10px;
@@ -118,10 +124,21 @@
         background-color: whitesmoke;
     }
     /*smooth scroll*/
+    .bg-dark.scrolled{
+        background: #22262e !important;
+    }
     
     @media screen and (prefers-reduced-motion: no-preference) {
         html {
             scroll-behavior: smooth;
         }
     }
-    
+    .row .card {
+        margin-top: 50px;
+    }
+    .row .card:hover {
+        box-shadow: 2px 2px rgba(0, 0, 0,1);
+        margin: center;
+    }
+    @import url('https://fonts.googleapis.com/css?family=Numans');
+
